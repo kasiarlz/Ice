@@ -6,7 +6,6 @@ My small, first projects
 
 2.Checking if the number is prime or not.
 
-
 3. FizzBuzz
 
 4. Guessing game

@@ -1,0 +1,21 @@
+import random 
+
+a = random.randint(1, 10)
+#print(a)
+user_answear = 0 
+count = 0 
+
+while user_answear != a and user_answear != 'exit':
+    user_answear = input('Wybierz liczbę od 1 do 10: ')
+    if user_answear == 'exit':
+        break
+    user_answear = float(user_answear)
+    count += 1
+
+    if user_answear == a:
+        print('Wygrana ! Zgadywałeś ', count , ' razy !' )
+
+    elif user_answear < a:
+        print('Za mało !')
+    else:
+        print('Za dużo !')

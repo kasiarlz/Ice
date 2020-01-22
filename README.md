@@ -9,3 +9,5 @@ My small, first projects
 3. FizzBuzz
 
 4. Guessing game
+
+5. Password Generator
